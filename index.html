@@ -32,7 +32,7 @@
             ctx.fillStyle = 'red'
             ctx.fillRect(player_x, player_y, 10, 10)
             ctx.strokeRect(base_x, base_y, 50, 50)
-                //check if player won
+                //check if player won and move 
             if (player_x >= base_x && player_y >= base_y && player_x <= base_x +
                 50 && player_y <= base_y + 50) {
                 base_x = Math.floor(Math.random() * 250)
